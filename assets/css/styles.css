@@ -324,18 +324,18 @@ body.dark-theme {
 
 .home__blob {
   position: relative;
-  width: 200px;
-  height: 290px;
+  width: 219px;
+  height: 219px;
   background-color: var(--body-color);
   border: 2px solid var(--text-color-light);
   justify-self: center;
-  border-radius: 6.25rem;
+  border-radius: 100%;
   place-items: center;
 }
 
 .home__perfil {
   width: 170px;
-  height: 260px;
+  height: 170px;
   background: var(--gradient-color);
   border-radius: 5.5rem;
   overflow: hidden;
@@ -343,11 +343,11 @@ body.dark-theme {
   justify-content: center;
   align-items: flex-end;
 }
-
+/*
 .home__perfil img {
-  width: 150px;
+  width: 201px;
 }
-
+*/
 .home__shape-wawes,
 .home__shape-circle {
   position: absolute;
@@ -1201,19 +1201,23 @@ color:hsl(4,71%,50%)
   }
 
   .home__blob {
-    width: 400px;
-    height: 580px;
+    width: 334px;
+    height: 334px;
     border-radius: 12.5rem;
   }
 
+  .home{
+    padding-block: 5rem 0;
+  }
+
   .home__perfil {
-    width: 340px;
-    height: 520px;
+    width: 304px;
+    height: 304px;
     border-radius: 10.6rem;
   }
 
   .home__perfil img {
-    width: 300px;
+    width: 500px;
   }
 
   .home__shape-wawes {
