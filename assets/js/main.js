@@ -180,7 +180,7 @@ const sc =ScrollReveal({
 })
 
 sc.reveal('.home__data, .projects__container, .services__container .testimonial__container, .footer__container' )
-sc.reveal('.home__info div',{delay:600, origin:'bottom', interval:100})
+sc.reveal('.home__info div',{delay:500, origin:'bottom', interval:80})
 sc.reveal('.skills__container:nth-child(1), .contact__content:nth-child(1)',{origin:'left'})
 sc.reveal('.skills__container:nth-child(2), .contact__content:nth-child(2)',{origin:'right'})
-sc.reveal('.qualification__content , .services__card', {interval:100})
+sc.reveal('.qualification__content , .services__card', {interval:70})

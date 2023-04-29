@@ -99,6 +99,13 @@ img {
 }
 
 /*=============== THEME ===============*/
+
+.my-icon {
+  position: relative;
+  top: 5px;
+} 
+
+
 .nav__buttons{
   display:flex;
   align-items: center;
@@ -283,6 +290,7 @@ body.dark-theme {
 .nav__link:hover {
   color: var(--title-color);
 }
+
 
 .nav__link i {
   font-size: 1.25rem;
@@ -798,7 +806,7 @@ body.dark-theme {
 }
 
 .contact__button {
-  display: inline-flex;
+  display: inline;
   width: initial;
   align-items: center;
   column-gap: .5rem;
