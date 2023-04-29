@@ -7,7 +7,12 @@
 
   /*========== Colors ==========*/
   /*Color mode HSL(hue, saturation, lightness)*/
-  --first-color: hsl(207, 65%, 65%);
+ 
+  --first-color: hsl(207, 4%, 16%);
+  --first-color-second: hsl(207, 4%, 16%) ;
+  --first-color-alt: hsl(210, 2%, 20%);
+  --first-color-lighter: hsl(207 92%, 85%);
+
   --title-color: hsl(207, 4%, 16%);
   --text-color: hsl(207, 4%, 28%);
   --text-color-light: hsl(207, 4%, 56%);
@@ -124,6 +129,52 @@ img {
   transition: color .3s;
 }
 
+
+/*==================== BUTTONS ====================*/
+
+.button {
+  display: inline;
+  background-color: var(--first-color);
+  color: #FFFF;
+  padding: 1rem;
+  border-radius: .5rem;
+  font-weight: var(--small-font-size);
+
+}
+
+.button:hover {
+  background-color: var(--first-color-alt);
+}
+
+.button__icon {
+  font-size: 1.2rem;
+  margin-left: var(--mb-0-5);
+  transition: .3s;
+}
+
+
+
+.button--flex {
+  display: inline;
+  align-items: center;
+  transition: .3s;
+
+}
+
+
+
+.button--link {
+  padding: 0;
+  background-color: transparent;
+  color: var(--first-color);
+}
+
+.button--link:hover {
+  background-color: transparent;
+  color: var(--first-color-alt);
+}
+
+
 /*========== Variables Dark theme ==========*/
 body.dark-theme {
   --title-color: hsl(207, 4%, 95%);
@@ -131,6 +182,22 @@ body.dark-theme {
   --body-color: hsl(207, 4%, 10%);
   --container-color: hsl(207, 4%, 12%);
 }
+
+.dark-theme .button--flex,
+.dark-theme .button--link{
+  background-color: var(--title-color);
+  color:var(--container-color);
+}
+
+.dark-theme .button:hover{
+  background-color: var(--text-color);
+}
+
+.dark-theme .button--link{
+  background-color: var(--container-color);
+}
+
+
 
 /*========== 
     Color changes in some parts of 
