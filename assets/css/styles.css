@@ -216,7 +216,7 @@ body.dark-theme {
 }
 
 .nav {
-  height: calc(var(--header-height) +.5rem);
+  height: calc(var(--header-height) + 0.5rem);
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -260,6 +260,7 @@ body.dark-theme {
     border-radius: 2rem;
     background-color: var(--body-color);
     box-shadow: 0 4px 20px hsla(207, 24%, 35%, 0.1);
+    transition: bottom .3s;
   }
 }
 
@@ -336,7 +337,9 @@ body.dark-theme {
 .home__perfil {
   width: 170px;
   height: 170px;
+  /*
   background: var(--gradient-color);
+  */
   border-radius: 5.5rem;
   overflow: hidden;
   display: flex;
