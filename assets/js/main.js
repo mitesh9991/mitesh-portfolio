@@ -99,7 +99,7 @@ const sendEmail =(e)=>{
 
 }
 
-contactForm .addEventListener('submit',sendEmail)
+contactForm.addEventListener('submit',sendEmail)
 
 /*=============== SCROLL SECTIONS ACTIVE LINK ===============*/
 const sections = document.querySelectorAll("section[id]");
